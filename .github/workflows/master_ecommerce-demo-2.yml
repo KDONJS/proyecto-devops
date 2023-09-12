@@ -58,4 +58,4 @@ jobs:
           app-name: 'ecommerce-demo-2'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC9C8A4A9B3F4E0FA952E7EA9BE3DA0E }}
-          package: ./home/site/wwwroot/dist/proyecto-devops
+          package: ./dist/proyecto-devops
